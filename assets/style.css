@@ -1,6 +1,7 @@
 body{
     background-color: rgb(246, 248, 249);
     margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 header{
@@ -18,7 +19,14 @@ main{
 }
 
 li{
+    margin: 10px 0px;
+}
 
+span{
+    color:white;
+    font-size: 11px;
+    border-radius: 10px;
+    padding: 5.9px 10px;
 }
 
 #logo{
@@ -65,4 +73,15 @@ li{
 
 .sales{
     background-color: rgb(176, 201, 38);
+}
+
+.fatto{
+    /* fare in modo che il bordo sembri un cerchio */
+    /* colorare lo span in cui è dentro la spunta di verde */
+    /* bordo di 1px dello stesso colore */
+}
+.da_fare{
+    /* fare in modo che il bordo sembri un cerchio */
+    /* colorare lo span in cui è dentro la x di rosso */
+    /* bordo di 1px dello stesso colore */
 }
