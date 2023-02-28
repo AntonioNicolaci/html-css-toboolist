@@ -9,13 +9,11 @@ header{
 }
 
 main{
-    background-color: white;
     text-align: left;
-    
     margin-top: 30px;
     margin-left: 20%;
     margin-right: 20%;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 li{
@@ -42,13 +40,42 @@ span{
 }
 
 #gestione{
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     padding: 15px 50px;
     text-align: left;
-    /* border-color: rgb(246, 248, 249); */
+    border-top-right-radius: var(raggio);
+    border-color: rgb(246, 248, 249);
+    margin-bottom: 1px;
+}
+
+#add_task{
+    background-color: rgb(69, 171, 234);
+    color: white;
+    font-size: 19px;
+    padding: 5px 6px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#add_section{
+    background-color: white;
+    color: rgb(196, 202, 207);
+    font-size: 19px;
+    padding: 4px 5px;
+    border: 1px;
+    border-style:solid;
+    border-color: rgb(196, 202, 207);
+    border-radius: 5px;
 }
 
 #todo_list{
+    background-color: white;
     padding: 15px 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 1px;
 }
 
 .editorial{
@@ -85,3 +112,4 @@ span{
     /* colorare lo span in cui è dentro la x di rosso */
     /* bordo di 1px dello stesso colore */
 }
+
