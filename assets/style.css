@@ -1,14 +1,14 @@
-body{
+body{ /* rende lo sfondo bianco sporco, il margine a 0 per non avere il bordo, cambia anche il font */
     background-color: rgb(246, 248, 249);
     margin: 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-header{
+header{ /* rende il bg dell'header bianco */
     background-color: white;
 }
 
-main{
+main{ /* crea una casella distinta dallo sfondo */
     text-align: left;
     margin-top: 30px;
     margin-left: 20%;
@@ -16,38 +16,35 @@ main{
     border-radius: 10px;
 }
 
-ul{
+ul{ /* toglie i puntini della lista non ordinata */
     list-style-type: none
 }
 
-li{
+li{ /* allontana i vari elementi della lista tra di loro */
     margin: 20px 0px;
 }
 
-#logo{
+#logo{ /* sposta il logo  */
     margin: 15px 0px 0px 15px;
-    align-items: center;
 }
 
-#testo_logo{
+#testo_logo{ /* sposta il testo del logo al centro del logo */
     display: inline-block;
     vertical-align: middle;
     margin-top: -35px;
     margin-bottom: 10px;
 }
 
-#gestione{
+#gestione{ /* zona che si occupa del div con i pulsanti */
     background-color: white;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding: 15px 50px;
     text-align: left;
-    border-top-right-radius: var(raggio);
-    border-color: rgb(246, 248, 249);
     margin-bottom: 2px;
 }
 
-#add_task{
+#add_task{ /* modifiche al bottone con scritto sopra "Add Task" */
     background-color: rgb(69, 171, 234);
     color: white;
     font-size: 19px;
@@ -56,7 +53,8 @@ li{
     border-radius: 5px;
 }
 
-#add_section{
+#add_section{ /* modifiche al bottone con scritto sopra "Add Section" */
+    background-color: rgb(69, 171, 234);
     background-color: white;
     color: rgb(196, 202, 207);
     font-size: 19px;
@@ -67,7 +65,7 @@ li{
     border-radius: 5px;
 }
 
-#todo_list{
+#todo_list{ /* si occupa della lista, il colore del bg, la craezione del bordo rotondo e la distanza tra "gestione" e "todo_list" */
     background-color: white;
     padding: 15px 30px;
     border-bottom-left-radius: 10px;
@@ -75,7 +73,7 @@ li{
     margin-top: 2px;
 }
 
-.editorial{
+.editorial{ /* sistema il tag colorato affianco ad alcune scritte */
     background-color: rgb(69, 171, 234);
     color:white;
     font-size: 11px;
@@ -83,7 +81,7 @@ li{
     padding: 5.9px 10px;
 }
 
-.q1_goals{
+.q1_goals{ /* sistema il tag colorato affianco ad alcune scritte */
     background-color: rgb(156, 114, 228);
     color:white;
     font-size: 11px;
@@ -91,7 +89,7 @@ li{
     padding: 5.9px 10px;
 }
 
-.recruiting{
+.recruiting{ /* sistema il tag colorato affianco ad alcune scritte */
     background-color: rgb(100, 192, 169);
     color:white;
     font-size: 11px;
@@ -99,7 +97,7 @@ li{
     padding: 5.9px 10px;
 }
 
-.mobile{
+.mobile{ /* sistema il tag colorato affianco ad alcune scritte */
     background-color: rgb(242, 158, 51);
     color:white;
     font-size: 11px;
@@ -107,7 +105,7 @@ li{
     padding: 5.9px 10px;
 }
 
-.website{
+.website{ /* sistema il tag colorato affianco ad alcune scritte */
     background-color: rgb(216, 99, 161);
     color:white;
     font-size: 11px;
@@ -115,7 +113,7 @@ li{
     padding: 5.9px 10px;
 }
 
-.sales{
+.sales{ /* sistema il tag colorato affianco ad alcune scritte */
     background-color: rgb(176, 201, 38);
     color:white;
     font-size: 11px;
@@ -123,24 +121,17 @@ li{
     padding: 5.9px 10px;
 }
 
-.fatto{
+.fatto{ /* fa in modo che il bordo sia un cerchio di colore verde, colora la spunta e il bordo di verde  */
     color: green;
     padding: 5px 7px;
     border-radius: 50%;
     border: 2px solid green;
     margin-right: 10px;
-    /* fare in modo che il bordo sembri un cerchio */
-    /* colorare lo span in cui è dentro la spunta di verde */
-    /* bordo di 1px dello stesso colore */
 }
-.da_fare{
+.da_fare{ /* fa in modo che il bordo sia un cerchio di colore verde, colora la x e il bordo di verde  */
     color: red;
     padding: 5px 7px;
     border-radius: 50%;
     border: 2px solid red;
     margin-right: 10px;
-    /* fare in modo che il bordo sembri un cerchio */
-    /* colorare lo span in cui è dentro la x di rosso */
-    /* bordo di 1px dello stesso colore */
 }
-
