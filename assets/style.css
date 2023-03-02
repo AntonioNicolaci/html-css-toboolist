@@ -10,9 +10,7 @@ header{ /* rende il bg dell'header bianco */
 
 main{ /* crea una casella distinta dallo sfondo */
     text-align: left;
-    margin-top: 30px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin: 30px 20% 0 20%;
     border-radius: 10px;
 }
 
@@ -73,65 +71,49 @@ li{ /* allontana i vari elementi della lista tra di loro */
     margin-top: 2px;
 }
 
-.editorial{ /* sistema il tag colorato affianco ad alcune scritte */
-    background-color: rgb(69, 171, 234);
+.tag{
     color:white;
     font-size: 11px;
     border-radius: 10px;
     padding: 5.9px 10px;
+}
+
+.editorial{ /* sistema il tag colorato affianco ad alcune scritte */
+    background-color: rgb(69, 171, 234);
 }
 
 .q1_goals{ /* sistema il tag colorato affianco ad alcune scritte */
     background-color: rgb(156, 114, 228);
-    color:white;
-    font-size: 11px;
-    border-radius: 10px;
-    padding: 5.9px 10px;
 }
 
 .recruiting{ /* sistema il tag colorato affianco ad alcune scritte */
     background-color: rgb(100, 192, 169);
-    color:white;
-    font-size: 11px;
-    border-radius: 10px;
-    padding: 5.9px 10px;
 }
 
 .mobile{ /* sistema il tag colorato affianco ad alcune scritte */
     background-color: rgb(242, 158, 51);
-    color:white;
-    font-size: 11px;
-    border-radius: 10px;
-    padding: 5.9px 10px;
 }
 
 .website{ /* sistema il tag colorato affianco ad alcune scritte */
     background-color: rgb(216, 99, 161);
-    color:white;
-    font-size: 11px;
-    border-radius: 10px;
-    padding: 5.9px 10px;
 }
 
 .sales{ /* sistema il tag colorato affianco ad alcune scritte */
     background-color: rgb(176, 201, 38);
-    color:white;
-    font-size: 11px;
-    border-radius: 10px;
-    padding: 5.9px 10px;
 }
 
-.fatto{ /* fa in modo che il bordo sia un cerchio di colore verde, colora la spunta e il bordo di verde  */
-    color: green;
+.check{ /* fa in modo che il bordo sia un cerchio */
     padding: 5px 7px;
     border-radius: 50%;
-    border: 2px solid green;
     margin-right: 10px;
 }
-.da_fare{ /* fa in modo che il bordo sia un cerchio di colore verde, colora la x e il bordo di verde  */
+
+.fatto{ /* colora la spunta e il bordo di verde  */
+    color: green;
+    border: 2px solid green;
+}
+
+.da_fare{ /* colora la x e il bordo di verde  */
     color: red;
-    padding: 5px 7px;
-    border-radius: 50%;
     border: 2px solid red;
-    margin-right: 10px;
 }
